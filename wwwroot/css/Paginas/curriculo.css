@@ -1,0 +1,168 @@
+﻿.apresentacao {
+    margin: 0 30%;
+}
+
+.apresentacao__secao {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.conteudo__foto {
+    position: relative;
+    display: inline-block;
+    margin: 0 2.5em 2em 0;
+    width: 13em;
+    height: 13em;
+    top: 1.8em;
+    left: 0em;
+    animation: conteudo_up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.foto {
+    left: 0.5em;
+    box-shadow: 0.3px 0.3px 20px black;
+    width: 12.8em;
+    height: 12.8em;
+}
+
+.conteudo__cabecalho {
+    position: relative;
+    background-color: var(--cor-segunda);
+    margin: 0.7em 0 0.3em 0;
+    border-radius: 20px;
+    display: inline-block;
+    width: 74.1%;
+    padding: 1.5em;
+    font-family: "Arima";
+    font-size: 22px;
+    box-shadow: 3px 3px 12px black;
+    color: var(--cor-quinta);
+    animation: conteudo_up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.nome {
+    font-weight: 500;
+    width: 3em;
+}
+
+.curso {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    font-size: 1.1em;
+    font-family: 'Arima';
+}
+
+.contato,a {
+    color: var(--cor-quinta);
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.contato a:hover {
+    color: var(--cor-quinta);
+}
+
+.conteudo__resumo {
+    width: 100%;
+    background-color: var(--cor-segunda);
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px black;
+    margin: 0.5em 0;
+    padding: 2em 3em 2em 2em;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--cor-quinta);
+    font-family: "Arima";
+    text-align: justify;
+    animation: conteudo_up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.conteudo__especificacoes {
+    width: 100%;
+    margin: 1em 0;
+    color: var(--cor-quinta);
+    animation: conteudo_up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.experiencia-profissional {
+    display: flex;
+    background-color: var(--cor-segunda);
+    box-shadow: 3px 3px 12px black;
+    padding: 2em 2em;
+    margin: 1em 0;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1.5em;
+}
+
+.titulo {
+    background-color: var(--cor-quarta);
+    padding: 0.5em;
+    width: 190px;
+    color: var(--cor-quinta);
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.experiencia-profissional__paragarafo {
+    padding: 0 0 0 1em;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.certificados {
+    display: flex;
+    width: 20em;
+    background-color: var(--cor-segunda);
+    box-shadow: 3px 3px 12px black;
+    border-radius: 20px;
+    padding: 1.5em 1.5em;
+    margin: 1em 0;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.informacoes-tecnicas {
+    background-color: var(--cor-segunda);
+    box-shadow: 3px 3px 12px black;
+    border-radius: 20px;
+    margin: 1em 0;
+    padding: 2em 2em;
+}
+
+.informacoes-tecnicas p {
+    margin-bottom: 1.5em;
+}
+
+.informacoes-tecnicas img {
+    width: 3.8em;
+    height: 3em;
+    padding: 0 0 0 1em;
+}
+
+@keyframes conteudo_up {
+    from {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

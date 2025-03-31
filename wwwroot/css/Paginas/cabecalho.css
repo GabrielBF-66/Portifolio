@@ -1,0 +1,118 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+.cabecalho {
+    padding: 2.4%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 2.5em;
+    gap: 2em;
+    margin: 0;
+}
+
+.container__botao {
+    display: none;
+}
+
+.cabecalho__menu-hamburguer {
+    padding: 1.28em 1.78em;
+    width: 90px;
+    height: 90px;
+    background-image: url("/Imagens/Menu.png");
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    cursor: pointer;
+}
+
+.lista-menu {
+    position: absolute;
+    width: 565px;
+    height: 65px;
+    top: 36px;
+    left: 9em;
+    list-style: none;
+    background-color: var(--cor-segunda);
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    animation: lista_menu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+
+.lista-menu__item {
+    position: absolute;
+    top: -80px;
+    background-color: var(--cor-terceira);
+    margin: 0.7em;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    text-align: center;
+    animation: menu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.lista-menu__item:nth-child(1) {
+    left: 0;
+    animation-delay: 0.1s;
+}
+
+.lista-menu__item:nth-child(2) {
+    left: 120px;
+    animation-delay: 0.2s;
+}
+
+.lista-menu__item:nth-child(3) {
+    left: 275px;
+    animation-delay: 0.3s;
+}
+
+.lista-menu__item:nth-child(4) {
+    left: 420px;
+    animation-delay: 0.4s;
+}
+
+.lista-menu__link {
+    color: var(--cor-quarta);
+    text-decoration: none;
+    font-family: "Arima";
+    font-size: 16px;
+}
+
+.lista-menu__link:hover {
+    color: var(--cor-quinta);
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+    animation: lista_menu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.container__botao:not(:checked) ~ .lista-menu {
+    display: none;
+}
+
+@keyframes menu {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(80px);
+    }
+}
+
+@keyframes lista_menu {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 565px;
+    }
+}

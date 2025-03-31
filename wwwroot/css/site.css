@@ -1,0 +1,82 @@
+@import url("Paginas/cabecalho.css");
+
+:root {
+    /*
+        Palettas De Cores.
+
+        https://colordesigner.io/color-palette-builder#703030-2F343B-7E827A-E3CDA4-C77966
+    */
+
+    --cor-primeira: #2F343B;
+    --cor-segunda: #703030;
+    --cor-terceira: #C77966;
+    --cor-quarta: #E3CDA4;
+    --cor-quinta: #7E827A;
+}
+
+body {
+    background-color: var(--cor-primeira);
+}
+
+.apresentacao {
+    margin: 2% 25% 0 25%;
+    height: 70%;
+}
+
+.apresentacao__secao {
+    position: relative;
+    background-color: var(--cor-segunda);
+    height: 100%;
+    border-radius: 25px;
+    padding: 0 0 0 2em;
+    box-shadow: 5px 5px var(--cor-terceira), 6px 6px var(--cor-terceira);
+    margin: 50px 0px;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    grid-column: 2;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    padding: 7em 0;
+    gap: 6em;
+}
+
+.conteudo__redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.conteudo__foto {
+    width: 285px;
+    height: 285px;
+    border-radius: 100%/100%;
+    background-color: var(--cor-terceira);
+}
+
+.foto {
+    position: relative;
+    top: 0.5em;
+    border-radius: 100%/100%;
+    object-fit: cover;
+}
+
+.texto-conteudo {
+    font-family: "Arima";
+    font-size: 20px;
+    color: var(--cor-quinta);
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.texto-conteudo::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    line-height: 0px;
+    color: var(--cor-quarta);
+    letter-spacing: 0.1cap;
+}

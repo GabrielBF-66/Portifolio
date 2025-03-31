@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabri\\Projetos\\Portifolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17BD06AB-2CE5-4E97-BCF3-98E42790F008}|Portifolio.csproj|c:\\users\\gabri\\projetos\\portifolio\\views\\home\\sobremim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17BD06AB-2CE5-4E97-BCF3-98E42790F008}|Portifolio.csproj|solutionrelative:views\\home\\sobremim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BD06AB-2CE5-4E97-BCF3-98E42790F008}|Portifolio.csproj|c:\\users\\gabri\\projetos\\portifolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17BD06AB-2CE5-4E97-BCF3-98E42790F008}|Portifolio.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SobreMim.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\Projetos\\Portifolio\\Views\\Home\\SobreMim.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SobreMim.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\Projetos\\Portifolio\\Views\\Home\\SobreMim.cshtml",
+              "RelativeToolTip": "Views\\Home\\SobreMim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T17:26:35.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\Projetos\\Portifolio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\Projetos\\Portifolio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T17:26:40.642Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

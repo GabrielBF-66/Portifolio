@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]Portifolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/cabecalho.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/Portifolio.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a asp-controller="Home" asp-action="Index" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a asp-controller="Home" asp-action="SobreMim" class="lista-menu__link">Sobre Mim</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a asp-controller="Home" asp-action="Curriculo" class="lista-menu__link">Curriculo</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a asp-controller="Home" asp-action="Projetos" class="lista-menu__link">Projetos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,95 @@
+.apresentacao {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.apresentacao__secao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 43%;
+    height: 100%;
+    padding: 2em;
+    gap: 4em;
+}
+
+.apresentacao__secao:nth-child(1) {
+    margin-left: 35px;
+}
+
+.apresentacao__secao:nth-child(2) {
+    width: 32%;
+    padding: 2.3em 4em;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.apresentacao__conteudo {
+    padding: 5em 0 5em 0;
+    gap: 3em;
+}
+
+.conteudo__social__github {
+    width: 12em;
+    height: 12em;
+    background-color: var(--cor-terceira);
+    border: none;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 10em/10em;
+    box-shadow: 3px 3px 5px black, 5px 5px 9px black;
+}
+
+.conteudo__social__github img {
+    width: 10em;
+    height: 10em;
+}
+
+.conteudo__social__codepen {
+    width: 12em;
+    height: 12em;
+    background-color: var(--cor-terceira);
+    border: none;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 10em/10em;
+    box-shadow: 3px 3px 5px black, 5px 5px 9px black;
+}
+
+.conteudo__social__codepen img {
+    width: 10em;
+    height: 10em;
+}
+
+.conteudo__social__linkedin {
+    width: 12em;
+    height: 12em;
+    background-color: var(--cor-terceira);
+    border: none;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 10em/10em;
+    box-shadow: 3px 3px 5px black, 5px 5px 9px black;
+}
+
+.conteudo__social__linkedin img {
+    width: 9em;
+    height: 9em;
+}
+
+.conteudo__foto {
+    position: relative;
+    top: 1em;
+    left: 0;
+    z-index: 1;
+}
+
+.foto {
+    left: 0.5em;
+    box-shadow: 0.3px 0.3px 20px black;
+    width: 280px;
+    height: 280px;
+}
